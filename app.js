@@ -1,16 +1,16 @@
-/* var life = 100 ; //number
+const name = "gisele";
 
-life = life - 10;
+//variables inside the function is only in the function 
+//variable in global scope is avaible everywhere
+function adder(num1, num2){   //inside parenthesis is a parameter
+    console.log(num1 + num2);
+}
 
-var name = "Gisele"; //string
+function upperCase(text){
+    const upperCased = text.toUpperCase();
+    console.log(upperCased);
+}
 
-var checkout = false; //boolean
-
-var box = null; //no value */
-
-const life = 100 //cannot be changed
-
-//if you use let the variabel can be changed
-
-
-console.log(box)
+const toUpper = () => {
+    //shortest way to write a function
+}
