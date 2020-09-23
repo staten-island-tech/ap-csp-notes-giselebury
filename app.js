@@ -1,16 +1,9 @@
-/* var life = 100 ; //number
+//string concatenation is adding strings together
+const name = 'Gisele';
+const age = 16;
 
-life = life - 10;
+console.log(`Hello it's me ${name} and my age is ${age}`) 
 
-var name = "Gisele"; //string
+const combined = name + age; //results in string
 
-var checkout = false; //boolean
-
-var box = null; //no value */
-
-const life = 100 //cannot be changed
-
-//if you use let the variabel can be changed
-
-
-console.log(box)
+console.log(typeof combined);
