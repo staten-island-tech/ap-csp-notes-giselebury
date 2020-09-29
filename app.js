@@ -1,16 +1,56 @@
-/* var life = 100 ; //number
+const age = 10;
 
-life = life - 10;
+if (age > 18) {
+    console.log("You are good to go!");
+} else if (age < 15){
+    console.log("Wow you are really young");
+} else {
+    console.log("You are not old enough")
+}
+ 
+// use === to compare same type
+// use || for or
+// use && for and
 
-var name = "Gisele"; //string
+//switches, used when you have a lot of different cases
+const color = 'red';
 
-var checkout = false; //boolean
+switch(color){
+    case 'red':
+        console.log('Color is red');
+        break;
+    case 'blue':
+        console.log('Color is blue');
+        break;
+    default:
+        console.log('Color is not red or blue');
+        break;
+}
 
-var box = null; //no value */
+let day;
 
-const life = 100 //cannot be changed
+switch(new Date().getDay()){
+    case 0:
+        day = 'Sunday';
+        break;
+    case 1:
+        day = 'Monday';
+        break;
+    case 2:
+        day = 'Tuesday';
+        break;
+    case 3:
+        day = 'Wednesday';
+        break;
+    case 4:
+        day = 'Thursday';
+        break;
+    case 5:
+        day = 'Friday';
+        break;
+    case 6:
+        day = 'Saturday';
+        break;
+}
 
-//if you use let the variabel can be changed
-
-
-console.log(box)
+console.log(`Today is ${day}`)
